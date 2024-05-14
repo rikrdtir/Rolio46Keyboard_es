@@ -1,4 +1,6 @@
 # Introduction
+Esta es una versión en español de repositorio original, proximamente se irá tradiciendo todos los archivos necesario para que puedas armar tu propio teclado.
+
 The Rolio46 is now at the version 1.0 release! This repo contains all the design files so you can build your own Rolio46.1.
 
 ![CNC 1.0 With travel Case](images/main.png?raw=true "CNC 1.0 With travel Case")
