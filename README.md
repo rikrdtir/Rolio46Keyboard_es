@@ -1,22 +1,22 @@
 # Presentación
 Esta es una versión en español del repositorio original, próximamente se irá traduciendo todos los archivos necesarios para que puedas armar tu propio teclado.
 
-¡El Rolio46, es un teclado inalámbrico y ergonómico de 46 teclas, ya está en la versión 1.0! Este repositorio contiene todos los archivos de diseño para que puedas crear tu propio Rolio46.1.
+¡El Rolio46, es un teclado inalámbrico y ergonómico de 46 teclas,está en su versión 1.0! Este repositorio contiene todos los archivos de diseño para que puedas construir tu propio Rolio46.1.
 
 ![CNC 1.0 With travel Case](images/main.png?raw=true "CNC 1.0 With travel Case")
 
-Este teclado próximamente tendrá una tienda especializada para quienes desean obtener este teclado pre soldado y/o armado, así como partes y componentes, para más detalles ver el repositorio original [aquí](https://github.com/MickiusMousius/Rolio46Keyboard), o la tienda que se abrirá pronto [aquí](https://keydio.io).
+Este teclado próximamente tendrá una tienda especializada para quienes desean obtener este teclado pre soldado y/o armado, así como partes y componentes, para más detalles ver el repositorio original [aquí](https://github.com/MickiusMousius/Rolio46Keyboard), o la tienda que se abrirá próximamente [aquí](https://keydio.io).
 
-Todos los archivos de diseño son y serán siempre de dominio público, el Rolio46 depende en gran medida de productos de código abierto como [ZMK](https://zmk.dev), por lo cual pertenece a la comunidad para su mejora o mantenimiento.
+Todos los archivos de diseño son y serán siempre de dominio público, el teclado Rolio46 depende en gran medida de productos de código abierto como [ZMK](https://zmk.dev), por lo cual pertenece a la comunidad para su mejora o mantenimiento.
 
 # Características
 Del teclado:
 - Totalmente inalámbrico gracias a [firmware ZMK](https://zmk.dev)
-- Excelente duración de la batería, con una autonomía de  más de dos semanas antes llegar al 60%.
+- Excelente duración de batería, con una autonomía de más de dos semanas antes llegar al 60%.
 - Bajo perfil, gracias a switches y keycaps de formato choc, con forma que es similar a la del muy popular Corne keyboar.
-- Con mejoras como Botones adicionales en la fila inferior en comparación al antes mencionado Sofle.
+- Con mejoras como Botones adicionales en la fila inferior en comparación al antes mencionado corne.
 - Encoders de rodillos horizontales en ambas mitades.
-- Retroiluminación bastante eficiente como para funcionar con baterías.
+- Retroiluminación bastante eficiente para funcionar con baterías.
 - Un chasis robusto y práctico.
   - Una versión FDM para la producción doméstica de bajo coste.
   - Un chasis SLS para un aspecto más refinado a un coste inferior que las opciones basadas en CNC.
