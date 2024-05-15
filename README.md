@@ -1,85 +1,79 @@
-# Introduction
-Esta es una versión en español de repositorio original, proximamente se irá tradiciendo todos los archivos necesario para que puedas armar tu propio teclado.
+# Presentación
+Esta es una versión en español del repositorio original, próximamente se irá traduciendo todos los archivos necesarios para que puedas armar tu propio teclado.
 
-The Rolio46 is now at the version 1.0 release! This repo contains all the design files so you can build your own Rolio46.1.
+¡El Rolio46, es un teclado inalámbrico y ergonómico de 46 teclas, ya está en la versión 1.0! Este repositorio contiene todos los archivos de diseño para que puedas crear tu propio Rolio46.1.
 
 ![CNC 1.0 With travel Case](images/main.png?raw=true "CNC 1.0 With travel Case")
 
-I will be [opening a store](https://keydio.io) to make it easier for people to make their own Rolio46.1, all of the required parts and sub assemblies will be available for purchase. The main PCBs (AKA shield boards) will be sold with all of the surface mount components pre-soldered.
+Este teclado próximamente tendrá una tienda especializada para quienes desean obtener este teclado pre soldado y/o armado, así como partes y componentes, para más detalles ver el repositorio original [aquí](https://github.com/MickiusMousius/Rolio46Keyboard), o la tienda que se abrirá pronto [aquí](https://keydio.io).
 
-Tutorial videos on how to do the through hole soldering and final assembly should be available in January 2024 as part of the store launch.
+Todos los archivos de diseño son y serán siempre de dominio público, el Rolio46 depende en gran medida de productos de código abierto como [ZMK](https://zmk.dev), por lo cual pertenece a la comunidad para su mejora o mantenimiento.
 
-I will keep all of the design files freely available, the Rolio46 relies heavily on open source products like [ZMK](https://zmk.dev) and I'd like to give something back to the community.
+# Características
+Del teclado:
+- Totalmente inalámbrico gracias a [firmware ZMK](https://zmk.dev)
+- Excelente duración de la batería, con una autonomía de  más de dos semanas antes llegar al 60%.
+- Bajo perfil, gracias a switches y keycaps de formato choc, con forma que es similar a la del muy popular Corne keyboar.
+- Con mejoras como Botones adicionales en la fila inferior en comparación al antes mencionado Sofle.
+- Encoders de rodillos horizontales en ambas mitades.
+- Retroiluminación bastante eficiente como para funcionar con baterías.
+- Un chasis robusto y práctico.
+  - Una versión FDM para la producción doméstica de bajo coste.
+  - Un chasis SLS para un aspecto más refinado a un coste inferior que las opciones basadas en CNC.
+  - Una opción CNC para un aspecto elegante y una sensación de alta calidad.
+- Una maleta de viaje que puede fabricarse fácilmente con cualquier impresora FDM 
 
-# Features
-The keyboard itself:
-- Fully wireless thanks to the awesome [ZMK firmware](https://zmk.dev)
-- Excellent battery life, I've personally been getting 2+ weeks before it gets to 60%
-- A low profile, compact choc spaced form factor that is similar to the Corne
-- Additional "Sometimes" buttons on the bottom row just like the Sofle
-- Horizontal roller encoders on both halves
-- A backlight that is efficient enough to be used on battery
-- A robust chassis so that it can be treated like a normal keyboard
-  - An FDM version for at home low cost production
-  - An SLS chassis for a more refined look at a lower cost than CNC based options
-  - A CNC option for a slick look and very premium feel
-- A travel case that can easily be made using any FDM printer
-
-ZMK Keymap & Custom keycaps:
-- Up to five memorized bluetooth profiles and a USB mode
-- The keycaps are fully customized and match the ZMK keymap thanks to [FKCaps](https://fkcaps.com/custom/FGE2DW)
-- MacOS and Windows modes as part of the keymap to keep the "same" handy macros in both OSs
-- All of the symbols and special behaviors can be accessed using at most two keys
-- The settings keys and different modes are documented in the key caps themselves (easy to learn).
-- The keymap can be easily customized thanks to ZMK, the keycaps can also be customized to suit your needs
-   - Here is a starting point for making your own key caps: [FKCaps](https://fkcaps.com/custom/FGE2DW)
+ZMK Keymap & teclas personalizadas:
+- Hasta cinco perfiles bluetooth memorizados y un modo USB.
+- Las teclas están totalmente personalizadas  gracias a [FKCaps](https://fkcaps.com/custom/FGE2DW)
+- Modos MacOS y Windows para mantener las «mismas» macros en ambos SOs.
+- Se puede acceder a todos los símbolos y comportamientos especiales utilizando como máximo dos teclas.
+- Las teclas de configuración y los diferentes modos están documentados en las propias mayúsculas de las teclas (fácil de aprender).
+- El keymap se puede personalizar fácilmente gracias a ZMK, las keycaps también se pueden personalizar para adaptarlas a tus necesidades.
+   - Aquí tienes un punto de partida para hacer tus propias keycaps de teclas: [FKCaps](https://fkcaps.com/custom/FGE2DW)
 
 [![Version 1.0 Key Caps](images/key_legend.png?raw=true "Version 1.0 Key Caps")](https://fkcaps.com/custom/FGE2DW)
 
 
-# Build Resources
-In order to build a Rolio46.1 you will need 5 main sub assemblies, the links below provide information about the different sub assemblies:
- * [The controller](doc/controller.md)
- * [The display](doc/display.md)
- * [The battery](doc/battery.md)
- * [The shield](pcb/README.md)
- * [The chassis](chassis/README.md)
+# Construye tu propio rolio46.
+Para construir un Rolio46.1 necesitas completar con estos 5 subconjuntos principales. Los enlaces proporcionan información detallada de los componentes y partes necesarias, pero descuida, te guiaremos paso a paso para que el proceso sea sencillo y puedas completar cada una de las subtareas, al terminar tendrás el teclado ergonómico perfecto:
+ * [El controlador](doc/controller.md)
+ * [La pantalla](doc/display.md)
+ * [Baterias](doc/battery.md)
+ * [Placa electrónica](pcb/README.md)
+ * [El chasis / carcasa](chassis/README.md)
 
-The shield and chassis are the sub assemblies that are most unique to this project, all of the other sub assemblies are fungible.
-
+Las placas electrónicas y el chasis son componentes exclusivos de este proyecto, todos los demás subconjuntos son intercambiables, y probablemente ya conozcas o hayas visto en otros teclados.
 
 # Firmware
 
-You can download the latest firmware from here: [releases](https://github.com/MickiusMousius/RolioKeyboard/releases)
+Puede descargar el firmware más reciente desde aquí: [versiones](https://github.com/MickiusMousius/RolioKeyboard/releases)
 
-If you want to customise the firmware (or your keymap) fork the following repository: [RolioFirmware](https://github.com/MickiusMousius/RolioFirmware)
+Si quieres personalizar el firmware (o crear tu propio layout) haz un fork del siguiente repositorio: [RolioFirmware](https://github.com/MickiusMousius/RolioFirmware)
 
-When you push a change to your fork a GitHub action will create a new firmware build for you.
+Cuando introduzcas un cambio en tú fork GitHub action creará una nueva compilación de firmware para ti.
 
 
-# Other Components
+# Otros componentes
 
 <ins>Keycaps</ins>
 
-This keyboard has been designed to use MBK caps. You should however be able to use any Choc compatible (including choc spacing) compatible caps.
+Este teclado ha sido diseñado para utilizar MBK keycaps. No obstante, debería poder utilizar cualquier keycap compatible con Choc.
 
-You can order a set of custom keycaps from a number of possible suppliers too.
+También puedes ordenar un juego de teclas personalizadas a varios proveedores.
 
-I have a design at FKCaps that has the keymap of this board integrated into the keys. The link for this key cap set can be found [HERE](https://fkcaps.com/custom/FGE2DW).
-
+El diseñador del teclado ha creado un juego de keycaps personalizado en FKCaps, el keymap del teclado ha sido integrado en las teclas. Estas keycaps las  puedes encontrar [AQUÍ](https://fkcaps.com/custom/FGE2DW).
 
 <ins>Switches</ins>
 
-The Rolio46 is designed for use with Choc V1 switches, these can be purchased from many different vendors. My personal favorite switch is the "Choc Sunset" switch.
+El Rolio46 está diseñado para su uso con interruptores Choc V1, que pueden adquirirse de muchos proveedores diferentes. 
 
+# Próximamente
+ * Modelos de estuches de transporte
+ * Publicar los modelos del kit de tienda de campaña
+ * Mejoras en las placas base y los amortiguadores para mejorar el perfil de sonido.
 
-# To Do
- * Publish the travel case models
- * Publish the tenting kit models
- * Make some small improvements to the base plates and dampers to improve the sound profile
- * Launch a store...
-
-# Gallery
+# Galería
 
 ![](images/case.png)
 
