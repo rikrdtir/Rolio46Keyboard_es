@@ -1,4 +1,5 @@
 # Introduction
+En este folder encontraras los archivos de desarrollo del PCB, desarrollado en el programa kiCad 7, existe dos PCB distintas, una para el dado izquierdo y otra para el lado derecho, ambas requeridas, y no son reversibles.
 
 This folder contains the KiCad 7 PCB design files for the left and right shield boards of the Rolio 46.
 
