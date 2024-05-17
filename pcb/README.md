@@ -3,7 +3,7 @@ En este folder encontraras los archivos de desarrollo del PCB, desarrollado en e
 
 This folder contains the KiCad 7 PCB design files for the left and right shield boards of the Rolio 46.
 
-# Ordering The PCBs from JLCPCB
+# Ordenear las PCBs en JLCPCB / Ordering The PCBs from JLCPCB
 
 Inside the "Left" and "Right" folders there are "Gerbers" folders. These are gerber files that have been prepared for use with JLCPCB.
 
